@@ -27,12 +27,14 @@ class Nav extends React.Component {
 
   handleCloseModal() {
     this.setState({ showModal: false });
+    this.props.feedbackChange('');
   }
 
   handleSubmit = () => {
     if (this.props.feedbackText.length > 0)
       this.props.submitFeedback();
     this.setState({ showModal: false });
+    this.props.feedbackChange('');
   }
 
   handleFormChange(e) {
