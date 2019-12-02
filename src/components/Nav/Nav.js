@@ -7,7 +7,7 @@ import './Nav.css';
 import { connect } from 'react-redux';
 
 import { feedbackChange, submitFeedback } from '../../actions';
-import { bindActionCreators } from '../../../../../Library/Caches/typescript/3.6/node_modules/redux';
+import { bindActionCreators } from 'redux';
 
 class Nav extends React.Component {
   constructor() {
@@ -30,7 +30,7 @@ class Nav extends React.Component {
   }
 
   handleSubmit = () => {
-    if (this.props.feedbackText.length > 0) 
+    if (this.props.feedbackText.length > 0)
       this.props.submitFeedback();
     this.setState({ showModal: false });
   }
@@ -56,7 +56,7 @@ class Nav extends React.Component {
           <button class="btn btn-warning text-dark modal_button" onClick={this.handleSubmit}>Submit</button>
         </ReactModal>
         <Item element={<IoIosPerson size={24} color="#FADD4B" />} />
-        <Item element={<FaInfo size={20} color="#FADD4B" />} style={{ marginLeft: '3px'}}  />
+        <Item element={<FaInfo size={20} color="#FADD4B" />} style={{ marginLeft: '3px' }} />
       </div >
     );
   }

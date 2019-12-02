@@ -5,89 +5,89 @@ const initialState = {
       category: "Eating",
       comments: [
         {
+          author: "Alibek Zhumagaliev",
+          content: "Whether it's for a spritz or two or an long lazy lunch, here are the new-ish places to snag a spot at for that annual diary date."
+        },
+        {
+          author: "​Akmaral Kudaibergen",
+          content: "You know by now that the Espy is back. You cannot not know. The fanfare around the phoenix-like rising of the place that holds the secret shames of countless Melburnians, collected over its 100-plus years of operation as luxury hotel and infamous music venue, has been Royal News huge."
+        },
+        {
+          author: "Joe Donag",
+          content: "You could stretch to a royal connection if you think that the work of the Sand Hill Road pub group, whose schtick is to transform old venues like the Prahran and Bridge hotels into glitzy playgrounds for adults, makes them kings of the reinvention game."
+        },
+        {
           author: "Temirzhan Yussupov",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          author: "Akezhan Rakishev",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          author: "Someone cool",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          author: "Temirzhan Yussupov",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          content: "Not everyone holds with that. Some worried they'd ruin the natural charms of an institution whose sticky carpets and beer lines might have qualified for historical protections."
         }
       ],
       id: 0
     },
     {
-      name: "Free Flow",
+      name: "Health Project",
       category: "Eating",
       comments: [
         {
-          author: "Temirzhan Yussupov",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          author: "Aman Kiyakov",
+          content: "So. How is it? That's a question too big to answer in one page. Top to bottom, Hotel Esplanade comprises 10 bars, two restaurants, podcast studios and the revamped 550-person Gershwin Room. But topline notes. It is busy."
         },
         {
           author: "Akezhan Rakishev",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          content: "Queue busy. Paul Kelly's checked in and everyone's flooding social feeds with that dramatic sweeping staircase, framed by peeling paint."
         },
         {
           author: "Someone cool",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          content: "Every care has been taken to preserve the soul of the venue while providing something new. Take the Gershwin Room. Beyond a good scrub and a new sound system, the famous bandroom, which has hosted the likes of PJ Harvey"
         },
         {
-          author: "Temirzhan Yussupov",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          author: "Tronal Kreon",
+          content: "On the other hand, the front terrace is unrecognisable. Stripey umbrellas and a retractable glass roof speak more of the pavilion's seaside location than its grungy history."
         }
       ],
       id: 1
     },
     {
-      name: "Free Flow",
+      name: "6 Inch",
       category: "Eating",
       comments: [
         {
-          author: "Temirzhan Yussupov",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          author: "Jogh Kepez",
+          content: "The attention to detail throughout the venue is impressive, and this extends to the Espy Kitchen. Overseen by executive chef Ash Hicks, the kitchen itself features two grills, two wood-fired pizza ovens and a rotisserie, and it is the equipment that informs the menu – think grass-fed beef from the grill section, French-style rotisserie chicken, and pizzas."
         },
         {
-          author: "Akezhan Rakishev",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          author: "Kanelo Trezona",
+          content: "Naturally, there is a seafood section, including a raw bar and daily crudo, lots of salads and desserts such as soft serve. Again, there is something for everyone."
         },
         {
-          author: "Someone cool",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          author: "Muni Suleybaiev",
+          content: "It all opened on Friday, except Mya Tiger, which will open on December 3. The reborn Espy might just be the mouth-to-mouth St Kilda needed. Welcome back."
         },
         {
-          author: "Temirzhan Yussupov",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          author: "John Criston",
+          content: "Take the Gershwin Room. Beyond a good scrub and a new sound system, the famous bandroom, which has hosted the likes of PJ Harvey, The Living End, and Public Enemy as well as music quiz show RockWiz, is virtually untouched."
         }
       ],
       id: 2
     },
     {
-      name: "Kek Flow",
+      name: "Kunde",
       category: "Eating",
       comments: [
         {
-          author: "Temirzhan Yussupov",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          author: "Treo Anuarov",
+          content: "Felstead (Prime, Foveaux) never produces a boring menu: even Rita's simple opening menu shows signs of his days as a high-end deg chef. One dish he describes as a bit like a bolognese but not. The kitchen slow-roasts wagyu."
         },
         {
-          author: "Akezhan Rakishev",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          author: "Shuro Prolez",
+          content: "With that now pushed back to next year, former Weeds chef Darrell Felstead has stolen a march near his old digs, opening Rita's at the redeveloped Cat and Fiddle Hotel."
         },
         {
-          author: "Someone cool",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          author: "Grigoriy Trolov",
+          content: "Freddie Green's opens at Green Square this week, the Italian restaurant with the Anglo-sounding moniker receiving its culinary inspiration from an unlikely place: a French fine diner."
         },
         {
-          author: "Temirzhan Yussupov",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          author: "Vladimir Groten",
+          content: "The pork liver parfait is matched with his blood orange powder, pizza Felstead-style might be topped with zucchini flower and sumac, while his interpretation of spag bol is served with udon."
         }
       ],
       id: 3
@@ -120,7 +120,7 @@ const reducer = (state = initialState, action) => {
       }
     }
     case "SUBMIT_FEEDBACK": {
-      const nextState = {...state};
+      const nextState = { ...state };
       nextState.posts = [...state.posts];
       nextState.posts[state.chosen].comments.push({
         author: "Ray Morty",
@@ -132,6 +132,6 @@ const reducer = (state = initialState, action) => {
     default:
       return state;
   }
-} 
+}
 
 export default reducer;
