@@ -96,7 +96,8 @@ const initialState = {
   chosen: -1,
   editMode: false,
   loggedIn: true,
-  feedbackText: ''
+  feedbackText: '',
+  logged: false
 };
 
 const reducer = (state = initialState, action) => {
@@ -122,12 +123,18 @@ const reducer = (state = initialState, action) => {
     case "SUBMIT_FEEDBACK": {
       const nextState = { ...state };
       nextState.posts = [...state.posts];
-      nextState.posts[state.chosen].comments.push({
+      nextState.posts[state.chosen].comments = [{
         author: "Ray Morty",
         content: state.feedbackText
-      });
+      }, ...nextState.posts[state.chosen].comments];
       nextState.feedbackText = "";
       return nextState;
+    }
+    case "LOGIN": {
+      return {
+        ...state,
+        logged: true
+      }  
     }
     default:
       return state;

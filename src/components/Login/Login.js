@@ -62,6 +62,7 @@ class Login extends React.Component {
         password: this.state.password,
       };
     }
+    this.props.login();
   };
 
   render() {

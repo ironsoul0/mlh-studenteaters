@@ -5,19 +5,44 @@ import Nav from './components/Nav/Nav';
 import Login from './components/Login/Login';
 import './App.css';
 
-function App() {
-  return (
-    <div class="row">
+import { connect } from 'react-redux';
+
+function App(props) {
+  const login = () => {
+    props.dispatch({
+      type: "LOGIN"
+    });
+  }
+
+  const styles = {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    height: "80vh"
+  }
+
+  return !props.logged ? (
+    // <div class="row">
+    //   <ScrollBar />
+    //   <Content />
+    //   <Nav />
+    // </div>
+    <div style={styles}>
+        <Login login={login} />
+    </div>
+  ) : (
+<div class="row">
       <ScrollBar />
       <Content />
       <Nav />
     </div>
-    // <div className="container d-flex justify-content-center align-items-center app_wrapper">
-    //   <div className="col-md-4">
-    //     <Login />
-    //   </div>
-    // </div>
   );
 }
 
-export default App;
+const mapStateToProps = state => {
+  return {
+    logged: state.logged
+  }
+}
+
+export default connect(mapStateToProps)(App);
