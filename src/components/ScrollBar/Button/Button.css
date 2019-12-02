@@ -1,0 +1,18 @@
+.button_wrapper {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 2px solid #E7E7E7;
+}
+
+.button_name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: -8px;
+}
+
+.button_about {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  padding-bottom: 10px;
+}

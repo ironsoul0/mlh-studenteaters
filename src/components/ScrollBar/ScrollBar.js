@@ -5,7 +5,7 @@ import './ScrollBar.css';
 function ScrollBar() {
   return (
     <div class="ScrollBar">
-      <Button name="Free Flow" active={No} />
+      <Button name="Free Flow" about="Eating" active={false} />
     </div>
   );
 }
