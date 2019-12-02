@@ -14,6 +14,10 @@ function ScrollBar() {
       <Button name="Free Flow" about="Eating" active={false} />
       <Button name="Free Flow" about="Eating" active={false} />
       <Button name="Free Flow" about="Eating" active={false} />
+      <Button name="Free Flow" about="Eating" active={false} />
+      <Button name="Free Flow" about="Eating" active={false} />
+      <Button name="Free Flow" about="Eating" active={false} />
+      <Button name="Free Flow" about="Eating" active={false} />
     </div>
   );
 }
