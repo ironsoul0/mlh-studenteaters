@@ -1,3 +1,52 @@
 .Content {
-  width: 80%;
+  width: 72%;
+  background-color: #FADD4B;
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 80px;
+}
+
+.Content__intro {
+  align-self: center;
+}
+
+.Content__greetings {
+  font-weight: bold;
+  font-size: 106px;
+  margin: 0;
+}
+
+.Content__text {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.Content__subtext {
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
+}
+
+.Content__place-name {
+  font-size: 66px;
+  font-weight: bold;
+}
+
+.Content__comment {
+  margin-top: 40px;
+}
+
+.Content__comment:nth-last-child(1) {
+  margin-bottom: 40px;
+}
+
+.Content__author {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.Content__author {
+  font-size: 18px;
 }
