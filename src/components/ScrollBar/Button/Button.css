@@ -3,7 +3,7 @@
 }
 
 .button_wrapper:hover {
-  background-color: #FADD4B;
+  /* background-color: #FADD4B; */
   -webkit-transition: background-color 0.3s ease-in;
   transition: background-color 0.3s ease-in;
 }

@@ -11,3 +11,7 @@ export const feedbackChange = (text) => ({
   type: "FEEDBACK_CHANGE",
   text
 });
+
+export const submitFeedback = () => ({
+  type: "SUBMIT_FEEDBACK"
+});

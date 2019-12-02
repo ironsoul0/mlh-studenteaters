@@ -11,10 +11,10 @@ function Content(props) {
     renderContent = (
       <div className="Content__intro">
         <h1 className="Content__greetings">
-          Hi,
+          Hi, Ray!
         </h1>
         <p className="Content__text">
-          Wanna eat somewhere, stupid motherfucker?
+          Wanna explore some places, my friend? <span>😏</span>
         </p>
         <p className="Content__subtext">
           Read others reviews to decide and go somewhere!
