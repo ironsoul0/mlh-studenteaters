@@ -1,0 +1,35 @@
+.button__primary__wide {
+  width: 100%;
+  color: white;
+  background-color: #F8DC4B;
+  border-radius: 32px;
+  padding: 12px;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  margin-left: 24px;
+}
+
+.button__primary__wide:hover {
+  background-color: #ffec8f;
+  outline: none;
+}
+
+.button__primary__wide:focus {
+  outline: none;
+}
+
+.button__primary__wide:disabled,
+.bubutton__primary__widetton[disabled]{
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.button__primary__wide__title {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
