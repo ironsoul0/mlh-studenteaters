@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 function Content(props) {
   let renderContent = null;
-  const chosen = 0;
+  const chosen = props.chosen;
 
   if (chosen === -1) {
     renderContent = (

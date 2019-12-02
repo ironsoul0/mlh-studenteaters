@@ -9,7 +9,7 @@ class Button extends React.Component {
 
   render() {
     return (
-      <div class="container button_wrapper" onClick={this.callAlert}>
+      <div class="container button_wrapper" onClick={this.props.choosePost}>
         <div class="row">
           <div class='col-md-9 button_content_wrapper'>
             <p class="button_name">{this.props.name}</p>

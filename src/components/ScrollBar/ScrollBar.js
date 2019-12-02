@@ -1,25 +1,42 @@
 import React from 'react';
 import BlockTop from './BlockTop/BlockTop';
 import Button from './Button/Button';
+import { choosePost } from '../../actions';
 import './ScrollBar.css';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 
-function ScrollBar() {
+function ScrollBar(props) {
+  const { posts, chosen } = props;
+
   return (
     <div class="ScrollBar">
       <BlockTop />
-      <Button name="Free Flow" about="Eating" active={true} />
-      <Button name="Health Project" about="Eating" active={false} />
-      <Button name="6 inch" about="Eating" active={false} />
-      <Button name="Free Flow" about="Eating" active={false} />
-      <Button name="Free Flow" about="Eating" active={false} />
-      <Button name="Free Flow" about="Eating" active={false} />
-      <Button name="Free Flow" about="Eating" active={false} />
-      <Button name="Free Flow" about="Eating" active={false} />
-      <Button name="Free Flow" about="Eating" active={false} />
-      <Button name="Free Flow" about="Eating" active={false} />
-      <Button name="Free Flow" about="Eating" active={false} />
+      {
+        posts.map(post => (
+          <Button 
+            choosePost={() => props.choosePost(post.id)} 
+            name={post.name}
+            about={post.category} 
+            active={chosen === post.id}
+          />
+        ))
+      }
     </div>
   );
 }
 
-export default ScrollBar;
+const mapStateToProps = state => {
+  return {
+    posts: state.posts,
+    chosen: state.chosen
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    choosePost: bindActionCreators(choosePost, dispatch)
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(ScrollBar);
